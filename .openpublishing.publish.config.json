@@ -38,7 +38,8 @@
         "SourceXmlFolder": "Documentation/xml",
         "OutputYamlFolder": "Documentation/api",
         "Flatten": true,
-        "id": "Infopath"
+        "id": "Infopath",
+        "SDPMode": true
       },
       "SplitTOC": [
         "Documentation/api/Infopath/toc.yml"
