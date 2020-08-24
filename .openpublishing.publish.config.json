@@ -38,8 +38,8 @@
         "SourceXmlFolder": "Documentation/xml",
         "OutputYamlFolder": "Documentation/api",
         "Flatten": true,
-        "id": "Infopath",
-        "SDPMode": true
+        "SDPMode": true,
+        "id": "Infopath"
       },
       "SplitTOC": [
         "Documentation/api/Infopath/toc.yml"
@@ -81,8 +81,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
