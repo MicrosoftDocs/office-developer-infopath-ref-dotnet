@@ -19,11 +19,15 @@
         "NetNamespace": "Content",
         "NetMember": "Content",
         "NetType": "Content"
+
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "base_path": "dotnet",
       "site_name": "Docs",
+      "customized_template_paths": [
+        "_dependentPackages/memberpage.plugins/content"
+      ],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -39,6 +43,7 @@
         "OutputYamlFolder": "Documentation/api",
         "Flatten": true,
         "SDPMode": true,
+
         "id": "Infopath"
       },
       "SplitTOC": [
